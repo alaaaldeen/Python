@@ -1,3 +1,3 @@
 # Python
 Tutorials files  
-This Repo for trainging purposes.
+This Repo for training purposes.
