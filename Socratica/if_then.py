@@ -14,4 +14,4 @@ if a + b > c and a + c > b and b + c > a:
     else:
         print("This is an Isosceles triangle.")
 else:
-    print("The provided numbers doent form a triangle")
+    print("The provided numbers don't form a triangle")
