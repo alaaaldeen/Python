@@ -13,11 +13,8 @@ logging.basicConfig(filename="D:\\Script\\lumberjack.log",
 logger = logging.getLogger()
 
 # Test messages
-<<<<<<< HEAD
-logger.debug("This is a report debug message.")
-=======
+
 logger.debug("This is a normal debug message.")
->>>>>>> a0fc693ff86fee957547b84c415a87f38c3ff8bc
 logger.info("Just some useful info.")
 logger.warning("I'm sorry, but I can't do that, Dave.")
 logger.error("Did you just try to divide by zero")
