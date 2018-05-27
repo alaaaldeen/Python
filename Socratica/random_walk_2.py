@@ -16,7 +16,7 @@ number_of_walk = 30000
 
 for walk_length in range(1, 31):
     no_transport = 0 # Number of walks 4 or fewer blocks from home
-    for i in range(number_of_walk):
+    for i in range(number_of_walk):  #for each number of walk lenght(n) try 30K
         (x, y) = random_walk_2(walk_length)
         distance = abs(x) + abs(y)
         if distance <= 4:
