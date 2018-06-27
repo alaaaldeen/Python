@@ -1,8 +1,8 @@
 # excersizing datetime timedelta object
 
 import datetime
-checkin = datetime.date(2017, 7, 2)
-stay = datetime.timedelta(90)
+checkin = datetime.date(2018, 3, 5)
+stay = datetime.timedelta(11)
 checkout = checkin + stay
 print checkout
 
